@@ -1,0 +1,38 @@
+@media only screen and (min-width: 1100px) {
+
+  .container {
+    max-width: 1300px;
+  }
+
+  .navigation-menu {
+    float: right;
+    padding-bottom: 20px;
+  }
+
+    .navigation-logo {
+      display: inline-block;
+      width: auto;
+    }
+    .navigation-menu {
+      display: inline-block;
+      vertical-align: top;
+      margin-top: 40px;
+    }
+
+/**
+* #######################################
+* ### DESTINATION
+*/
+   [class*="destination-content__container"] {
+      display: block;
+    }
+      .destination-content-image {
+        width: auto;
+        height: auto;
+      }
+      .destination-content-text {
+        font-size: 18px;
+        font-weight: bold;
+        margin: 10px 5px;
+      }
+}
